@@ -1,0 +1,290 @@
+.navigate{
+    background-image: url("./netflix\ background\ \(2\).jpg");
+    margin: 0px;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    padding: 0;
+    margin: 0;
+}
+.logo-name{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 10px;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 10px;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.a{
+    border: solid white;
+    border-radius: 4px;
+}
+.b{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.b:hover{
+    background-color: brown;
+}
+.heroji h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    padding: 0 450px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heroji{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.heroji .c{
+    padding: 10px 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heroji .mails{
+    padding: 10px 415px;
+}
+.heroji div {
+    display: flex;
+    position: relative;
+    padding: 5px  30px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.heroji .e{
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0 50px;
+    
+}
+.heroji a{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+    transition: background-color 0.3s;
+}
+.heroji a:hover{
+    background-color: brown;
+}
+hr{
+    border: solid red;
+    position: relative;
+    margin-bottom: 0;
+}
+.trending-now{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trending-now .movies div{
+    font-size: 20px;
+    margin-left: 60px;
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    padding: 5px 5px;
+    align-items: center;
+    border: solid white;
+    border-radius: 4px;
+}
+.trending-now h2{
+    font-size: 25px;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.trending-now img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.trending-now img:hover{
+    color: white;
+}
+.trending-now h3{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    top:123%;
+    position: absolute;
+    padding: 4px 4px;
+}
+.trending-now .f{
+    left: 6%;
+}
+.trending-now .g{
+    left: 23.8%;
+}
+.trending-now .h{
+    left: 41.2%;
+}
+.trending-now .i{
+    left: 58.4%;
+}
+.trending-now .j{
+    left: 75.8%;
+}
+.final-home{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.final-home h2{
+    font-size: 25px;
+    position: relative;
+    padding-top: 55px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.final-home .k{
+    display: flex;
+    padding: 25px 0;
+}
+.k div{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(27,18,18);
+    margin-left: 45px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.k h3{
+    font-size: 20px;
+}
+.k p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.qa{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qa h2{
+    font-size: 30px;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.qa div{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.qa div p{
+    background-color: #5A5A5A;
+    color: white;
+    margin-left: 60px;
+    margin-right: 80px;
+    padding: 10px 40px;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0;
+}
+.qa p span{
+    float: right;
+}
+.re{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: black;
+    margin: 0;
+    position: relative;
+}
+/*.re .c{
+    padding: 10px 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.re .mails{
+    padding: 10px 415px;
+}
+.re div {
+    display: flex;
+    position: relative;
+    padding: 5px  30px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.re .e{
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0 50px;
+    
+}
+.re a{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+    transition: background-color 0.3s;
+}
+.re a:hover{
+    background-color: brown;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+footer ul{
+    list-style: none;
+}
+footer li a{
+    color: white;
+    transition: color 0.3s;
+}
+footer li a:hover{
+    color: grey;
+}
